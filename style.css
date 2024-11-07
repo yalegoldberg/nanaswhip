@@ -1,0 +1,306 @@
+/* General reset and body styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;  /* Allow the home page to have more space */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 2rem;  /* Slightly larger for visibility */
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;  /* Ensuring the font size is consistent */
+}
+
+.nav-links a:hover {
+  color: #ff6347;  /* Add hover effect for navigation links */
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('https://source.unsplash.com/1600x900/?restaurant,food') center/cover no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.cta-btn {
+  padding: 0.8rem 2rem;
+  background-color: #ff6347;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #ff4500;
+}
+
+/* About Section */
+.about-home {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about-home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-home p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Menu Highlight Section / Our Services Section */
+.menu-highlight {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.menu-highlight h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.menu-item p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 4rem 0;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-item {
+  margin-bottom: 2rem;
+}
+
+.testimonial-item p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  padding: 1rem 2rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-form button:hover {
+  background-color: #ff4500;
+}
+
+/* Our Story Section */
+.our-story {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.our-story h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.our-story p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+/* Logo Sizing */
+/* Apply flex styling only within the navbar container */
+.navbar .navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style the logo with a gap from the navigation links */
+.navbar .logo-image {
+  height: 100px; /* Adjust as needed */
+  width: auto;
+  margin-right: 40px; /* Space between logo and nav links */
+}
+
+/* Align the navigation links */
+.navbar .nav-links {
+  display: flex;
+  gap: 20px; /* Adjust gap between nav items */
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.story-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between images */
+  margin: 20px 0; /* Space around the image section */
+}
+
+.story-image {
+  max-width: 250px; /* Limits the width without stretching */
+  height: auto; /* Keeps the original aspect ratio */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+.centered-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Space above the image */
+}
+
+.tiny-banana {
+  max-width: 250px; /* Same size as other images */
+  height: auto;
+  border-radius: 8px; /* Same rounded corners as the other images */
+}
