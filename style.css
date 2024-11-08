@@ -42,13 +42,13 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #5a918a;
   font-weight: 600;
   font-size: 1rem;  /* Ensuring the font size is consistent */
 }
 
 .nav-links a:hover {
-  color: #ff6347;  /* Add hover effect for navigation links */
+  color: #f2cd31;  /* Add hover effect for navigation links */
 }
 
 /* Hero Section */
@@ -73,7 +73,7 @@ body {
 
 .cta-btn {
   padding: 0.8rem 2rem;
-  background-color: #ff6347;
+  background-color: #5a918a;
   color: white;
   text-decoration: none;
   font-weight: 700;
@@ -81,7 +81,7 @@ body {
 }
 
 .cta-btn:hover {
-  background-color: #ff4500;
+  background-color: #f2cd31;
 }
 
 /* About Section */
@@ -219,7 +219,7 @@ footer p {
 
 .contact-form button {
   padding: 1rem 2rem;
-  background-color: #ff6347;
+  background-color: #5a918a;
   color: white;
   border: none;
   border-radius: 5px;
@@ -229,7 +229,7 @@ footer p {
 }
 
 .contact-form button:hover {
-  background-color: #ff4500;
+  background-color: #f2cd31;
 }
 
 /* Our Story Section */
@@ -278,7 +278,7 @@ footer p {
 
 .nav-links a {
   text-decoration: none;
-  color: black;
+  color: #5a918a;
   font-weight: 600;
 }
 .story-images {
@@ -303,4 +303,73 @@ footer p {
   max-width: 250px; /* Same size as other images */
   height: auto;
   border-radius: 8px; /* Same rounded corners as the other images */
+}
+.section-heading {
+  color: #5a918a;
+}
+.section-heading2 {
+  color: #70bcb9;
+}
+.highlight-name {
+  color: #dbad39;
+}
+.welcome {
+  color: #dbad39;
+}
+/* Make sure the body takes up full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Ensure the menu image fills the screen */
+.menu-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make it take up the full viewport height */
+  background-color: #f4f4f4; /* Optional background color */
+}
+
+.menu-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Keeps the image in its original aspect ratio */
+}
+
+/* Optional: Style the navigation bar */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.logo-image {
+  max-width: 150px;
+}
+
+/* Optional: Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
 }
