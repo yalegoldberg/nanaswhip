@@ -24,32 +24,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  width: 100%; /* Ensure the navbar spans the entire width */
+  background-color: #fff; /* Optional: Maintain consistent background color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for style */
 }
 
-.logo {
-  font-size: 2rem;  /* Slightly larger for visibility */
-  color: #333;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-}
-
-.nav-links li {
-  margin-left: 2rem;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #5a918a;
-  font-weight: 600;
-  font-size: 1rem;  /* Ensuring the font size is consistent */
-}
-
-.nav-links a:hover {
-  color: #f2cd31;  /* Add hover effect for navigation links */
-}
 
 /* Hero Section */
 .hero {
@@ -341,10 +320,12 @@ html, body {
 
 /* Optional: Style the navigation bar */
 .navbar-container {
+  width: 90%; /* Limit the inner content width for better alignment */
+  max-width: 1200px; /* Ensure consistency with your main container */
+  margin: 0 auto; /* Center the navbar content */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 
 .nav-links {
@@ -427,3 +408,12 @@ footer {
   width: auto;
 }
 
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%; /* Ensure full-width spanning */
+  background-color: #fff; /* Maintain a consistent background */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for style */
+}
