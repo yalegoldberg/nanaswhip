@@ -417,3 +417,26 @@ footer {
   background-color: #fff; /* Maintain a consistent background */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for style */
 }
+.hero-section {
+  position: relative; /* Ensures text can be layered over the background */
+  background: url('cover.png') no-repeat center center; /* Centers the image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  width: 100%; /* Full width */
+  height: 60vh; /* Adjust height as needed */
+  display: flex; /* Flexbox for positioning content */
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+  color: white; /* Makes text white for contrast */
+  text-align: center; /* Centers text */
+}
+
+.hero-section h1 {
+  font-size: 3rem; /* Adjust font size for header */
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.25rem; /* Adjust font size for description text */
+  margin-top: 1rem;
+}
+
