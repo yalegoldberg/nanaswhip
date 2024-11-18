@@ -242,7 +242,7 @@ footer p {
 .navbar .logo-image {
   height: 100px; /* Adjust as needed */
   width: auto;
-  margin-right: 40px; /* Space between logo and nav links */
+  margin-right: 10px; /* Space between logo and nav links */
 }
 
 /* Align the navigation links */
